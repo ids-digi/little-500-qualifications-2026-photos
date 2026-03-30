@@ -47,6 +47,7 @@ function handleStepEnter(event) {
         document.querySelector('.sticky-image').style.opacity = 0;
         document.querySelector('.sticky-image').style.pointerEvents = "none";
     } else {
+		images[index-1].style.opacity = 0;
         images[index].style.opacity = 1;
     }
 
@@ -62,6 +63,7 @@ function handleStepExit(event) {
             document.querySelector('.sticky-image').style.opacity = 1;
             document.querySelector('.sticky-image').style.pointerEvents = "initial";
         } else {
+            images[index-1].style.opacity = 1;
             images[index].style.opacity = 0;
         }
     }
