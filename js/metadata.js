@@ -1,27 +1,35 @@
 const data = {
-    "url": "your-url-here",
-    // slug will appear in the nav bar
-    "slug": "Pridefest Returns",
-    // title will appear on the tab in the browser
-    "title": "Pridefest Photos",
-    // make sure to update the pub date before finishing the project
-    "pub_date": "July 31, 2022",
+    "url": "little-500-qualifications-2026-photos",
+    "slug": "Little 500 Qualifications",
+    "title": "Little 500 Qualifications",
+    "pub_date": "March 30, 2026",
     "bylines": {
-        // fill in photographer info
         "Photos by": [
             {
-                "name": "Ethan Moore",
-                "email": "ethmoore@iu.edu",
+                "name": "Sophia Kaplan",
+                "email": "sokaplan@iu.edu",
             },
             {
-                "name": "Ashlyn Johnson",
-                "email": "catchar@iu.edu",
+                "name": "Jimmy Rush",
+                "email": "jamprush@iu.edu",
             },
+			{
+				"name": "Jack Jernigan",
+				"email": "jackjern@iu.edu"
+			},
+			{
+				"name": "Briana Pace",
+				"email": "bpace7530@gmail.com"
+			},
+			{
+				"name": "Kaitlyn Stacy",
+				"email": "kaitstac@iu.edu"
+			}
         ],
         // fill in digital designer info
         "Design and development by": {
-            "name": "Ethan Moore",
-            "email": "ethmoore@iu.edu",
+            "name": "Matei Cloteaux",
+            "email": "mcloteau@iu.edu",
         }
     }
 }

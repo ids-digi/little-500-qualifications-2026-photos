@@ -43,7 +43,7 @@ function handleStepEnter(event) {
 
     // console.log(index);
 
-    if (index == 12) {
+    if (index == 20) {
         document.querySelector('.sticky-image').style.opacity = 0;
         document.querySelector('.sticky-image').style.pointerEvents = "none";
     } else {
@@ -58,7 +58,7 @@ function handleStepExit(event) {
 
         let index = event.element.dataset.step;
 
-        if (index == 12) {
+        if (index == 20) {
             document.querySelector('.sticky-image').style.opacity = 1;
             document.querySelector('.sticky-image').style.pointerEvents = "initial";
         } else {

@@ -52,6 +52,11 @@ h1 {
   margin-bottom: var(--md);
 }
 
+h2 {
+	font-size: 50px;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
 .bylines p,
 .bylines a:link,
 .bylines a:hover,
@@ -59,6 +64,12 @@ h1 {
 .bylines a:visited {
   color: white;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.bylines {
+	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	max-width: 400px;
 }
 
 figcaption {
@@ -83,7 +94,6 @@ p.credit {
   flex-flow: column;
   justify-content: center;
   width: 100%;
-
 }
 
 .sticky-image {
